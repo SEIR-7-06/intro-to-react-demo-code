@@ -34,4 +34,40 @@ React Timeline:
 
 💡 JSX
     * It's JavaScript code that *looks* like HTML
-    
+
+Notes and Findings - 
+* App.js is the top level component!
+* Now know how to create new components, as well as how to 
+import them into other components
+
+
+💡 The Virtual DOM
+    - Frustrations w/ the JS DOM API
+        - It's annoying to search for DOM elements
+        - Managing state is very annoying
+            - State of JS variables
+            - State of the DOM elements
+
+    - It is a very computationally expensive operation
+    to change anything in the DOM
+
+<div>
+    <nav>
+        <img>
+        <div>
+            Henry
+        </div>
+    </nav>
+</div>
+
+💡 The two different ways to write a component
+    1. Functional component 
+        - Are best used for components that are just presentational in nature - aka: You're just displaying some text
+        - Disclaimer: Nowadays, "hooks" allow function components
+        to do all the stuff class components can
+
+    2. Class-based component
+        - Are best used when you need components to have more functionality
+            - function()
+            - Lifecycle methods
+            - fetch()
