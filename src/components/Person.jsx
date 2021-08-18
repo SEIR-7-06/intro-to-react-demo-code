@@ -14,12 +14,13 @@
 
 // Example of a "class-based" component
 import React from 'react'
+import './Person.css'
 
 class Person extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hi my name is Henry!</h1>
+                <h1 className="person-header">Hi my name is Henry!</h1>
             </div>
         )
     }

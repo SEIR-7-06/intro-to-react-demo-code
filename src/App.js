@@ -6,12 +6,26 @@ import TodoList from './components/TodoList'
 class App extends React.Component {
     render() {
         let myFunMsg = "Nice!"
-        let motivationalMessages = ["You're doing great!", "Very hardworking!", "Looking kinda cute today"]
+        let motivationalMessages = [
+            "You're doing great!", 
+            "Very hardworking!", 
+            "Looking kinda cute today"
+        ]
+        // let msgs = []
+        // for(let i = 0; i < motivationalMessages.length; i++) {
+        //     msgs.push(<p>{ motivationalMessages[i] }</p>)
+        // }
+
+        // JavaScript's map() function
+        let msgs1 = motivationalMessages.map(msg => {
+            return <p>{ msg }</p>
+        })
+        
         return (
             <div>
                 <Person />
                 <p>{ myFunMsg }</p>
-                <div>{ motivationalMessages }</div>
+                <div>{ msgs1 }</div>
                 <TodoList />
             </div>
         )
