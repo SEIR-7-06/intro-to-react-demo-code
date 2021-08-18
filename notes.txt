@@ -1,0 +1,37 @@
+# Intro to React
+
+# Schedule
+* Introduce React
+* Explain Component Driven Development
+* Explore the basics of a React app w/ the 
+create-react-app tool
+* Practice building components
+
+## What is React??
+* A JavaScript library for building user interfaces
+(a library is: third party code that gives you functionality)
+* It allows us to create significantly more powerful front-ends much more easily
+
+Throw back to yesterday:
+Server-Side Rendering - (w/ EJS)
+
+React is very widely used!
+https://insights.stackoverflow.com/survey/2021#most-popular-technologies-webframe
+
+React Timeline:
+- First created at Facebook 2011
+- Used at Instagram in 2012
+- Open Sourced in 2013
+
+💡 React was born out of the frustrations of the traditional MVC model
+    * traditionally, "separation of concerns" was practiced by splitting HTML and JS
+
+📖 "Components are the fundamental building blocks of our application"
+    * Think EJS Partials, but souped up with the power of JavaScript!
+
+💪 Exercise: Explore all of the files that create-react-app made! 
+
+
+💡 JSX
+    * It's JavaScript code that *looks* like HTML
+    
