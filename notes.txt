@@ -50,6 +50,9 @@ import them into other components
 
     - It is a very computationally expensive operation
     to change anything in the DOM
+    - The Virtual DOM is an in-memory representation of the actual DOM
+    - The actual DOM is only updated as necessary to bring it to a desired new state
+    - Instead of re-rendering the entire page, react only re-renders the portions of the page have changes
 
 <div>
     <nav>
@@ -68,6 +71,6 @@ import them into other components
 
     2. Class-based component
         - Are best used when you need components to have more functionality
-            - function()
+            - functions ()
             - Lifecycle methods
-            - fetch()
+            - AJAX calls - like fetch()
