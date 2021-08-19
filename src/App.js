@@ -23,7 +23,7 @@ class App extends React.Component {
         
         return (
             <div>
-                <Person />
+                <Person name="Joe" zodiac="scorpio" age="34" />
                 <p>{ myFunMsg }</p>
                 <div>{ msgs1 }</div>
                 <TodoList />

@@ -17,10 +17,16 @@ import React from 'react'
 import './Person.css'
 
 class Person extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return (
             <div>
-                <h1 className="person-header">Hi my name is Henry!</h1>
+                <h1 className="person-header">Hi my name is { this.props.name }!</h1>
+                <p>My Zodiac Sign is: { this.props.zodiac }</p>
+                <p>My age is: { this.props.age }</p>
             </div>
         )
     }
